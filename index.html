@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Hello World!</title>
-    <link rel="manifest" href="manifest.json">
+    <link rel="manifest" href="/HelloWorldPWA/manifest.json">
 </head>
 
 <body>
     Hello World!
     <script>
         if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('/sw.js')
+            navigator.serviceWorker.register('/HelloWorldPWA/sw.js')
                 .then(function (registration) {
                     console.log('Service Worker registered with scope:', registration.scope);
                 })

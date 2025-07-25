@@ -1,8 +1,8 @@
 const cacheName = 'helloworldpwa-cache';
 const files = [
-    '/',
-    './index.html',
-    './icon.png'
+    '/HelloWorldPWA/',
+    '/HelloWorldPWA/index.html',
+    '/HelloWorldPWA/icon.png'
 ];
 
 self.addEventListener('install', (event) => {

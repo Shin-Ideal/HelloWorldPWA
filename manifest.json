@@ -1,10 +1,10 @@
 {
     "name": "Hello World PWA",
     "display": "standalone",
-    "start_url": "/index.html",
+    "start_url": "/HelloWorldPWA/index.html",
     "icons": [
         {
-            "src": "/icon.png",
+            "src": "/HelloWorldPWA/icon.png",
             "type": "image/png",
             "sizes": "512x512"
         }
